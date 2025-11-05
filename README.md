@@ -33,7 +33,7 @@ contact-form-website/
    ```bash
    git clone https://github.com/Didintle-ops/contact-form-website.git
 Open index.html in your browser
-That’s it — no build steps required.
+That’s it, no build steps required.
 
 ⚙️ Customization
 You can easily integrate this form with:
@@ -43,4 +43,4 @@ Formspree, EmailJS, or your own backend API.
 Adjust colors, shadows, and hover transitions in style.css.
 
 📜 License
-This project is licensed under the MIT License — free to use, modify, and share
+This project is licensed under the MIT License, free to use, modify, and share
