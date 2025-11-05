@@ -31,8 +31,7 @@ contact-form-website/
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/yourusername/contact-form-website.git
-   cd contact-form-website
+   git clone https://github.com/Didintle-ops/contact-form-website.git
 Open index.html in your browser
 That’s it — no build steps required.
 
