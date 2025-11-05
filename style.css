@@ -1,0 +1,130 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  color: #cfcfcf;
+  font-size: 1rem;
+}
+
+/* Contact section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  flex: 1;
+}
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 600px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.contact-form:hover {
+  transform: scale(1.02);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.3px;
+}
+
+input, textarea {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+}
+
+input:focus, textarea:focus {
+  box-shadow: 0 0 10px #00d4ff;
+  background: #fff;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Submit button */
+.submit-btn {
+  background: #00d4ff;
+  color: #111;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.9rem 1.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+
+.submit-btn:hover {
+  background: #00a8cc;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(0, 212, 255, 0.3);
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contact-form {
+    padding: 1.5rem;
+  }
+  .header h1 {
+    font-size: 2rem;
+  }
+}
